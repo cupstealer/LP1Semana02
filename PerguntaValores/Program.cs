@@ -16,6 +16,9 @@ namespace PerguntaValores
             radius = int.Parse(Console.ReadLine());
 
             volume = Math.PI*radius*radius*height;
+            Console.WriteLine("The cylinder volume: " + volume);
+            Console.WriteLine();
+
         }
     }
 }
