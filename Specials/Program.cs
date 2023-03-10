@@ -42,10 +42,17 @@ namespace Specials
             Console.WriteLine($"Range of Decimal Type is {min6} to {max6}");
             Console.WriteLine($"Range of Double Type is {min} to {max}");
             Console.WriteLine($"Range of Long Type is {min7} to {max7}");
-            
+
             Console.WriteLine();
             Console.WriteLine($"Range of Infinity Double Type is {x1} to {x2}");
             Console.WriteLine($"The Invalid Float Type is {x}");
+
+            //Overflow
+            Console.WriteLine();
+            int i = short.MaxValue;
+            int ii = short.MinValue;
+            Console.WriteLine("Overflow in Whole Numbers: " + (short) (i + 1));
+            Console.WriteLine((short) ( ii +1));
         }
     }
 }
