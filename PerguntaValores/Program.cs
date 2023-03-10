@@ -7,13 +7,15 @@ namespace PerguntaValores
         static void Main(string[] args)
 
         {
-            int height, radius;
-            float volume;
+            float height, radius;
+            double volume;
 
             Console.WriteLine("Insert the object's height: ");
             height = int.Parse(Console.ReadLine());
             Console.WriteLine("Insert the object's radius: ");
             radius = int.Parse(Console.ReadLine());
+
+            volume = Math.PI*radius*radius*height;
         }
     }
 }
