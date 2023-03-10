@@ -15,7 +15,7 @@ namespace PerguntaValores
             Console.WriteLine("Insert the object's radius: ");
             radius = int.Parse(Console.ReadLine());
 
-            volume = Math.PI*radius*radius*height;
+            volume = Math.PI*Math.Pow(radius, 2)*height;
             Console.WriteLine("The cylinder volume: " + volume);
             Console.WriteLine();
 
