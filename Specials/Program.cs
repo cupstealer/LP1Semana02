@@ -47,12 +47,15 @@ namespace Specials
             Console.WriteLine($"Range of Infinity Double Type is {x1} to {x2}");
             Console.WriteLine($"The Invalid Float Type is {x}");
 
-            //Overflow
+            //Overflow in Whole Numbers
             Console.WriteLine();
             int i = short.MaxValue;
-            int ii = short.MinValue;
             Console.WriteLine("Overflow in Whole Numbers: " + (short) (i + 1));
-            Console.WriteLine((short) ( ii +1));
+
+            double d = 2*double.MaxValue;
+            double d2 = double.MaxValue + 1;
+            Console.WriteLine("Overflow in Real Types, First Type: " + d);
+            Console.WriteLine("Overflow in Real Types, Second Type: " + d2);
         }
     }
 }
