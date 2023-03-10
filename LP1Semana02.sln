@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManipulaVar", "ManipulaVar\ManipulaVar.csproj", "{DECABE4E-259E-414D-8434-D3DE7A4A6959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerguntaValores", "PerguntaValores\PerguntaValores.csproj", "{67630CE5-21D4-439C-93E3-6D661BAA6070}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DECABE4E-259E-414D-8434-D3DE7A4A6959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECABE4E-259E-414D-8434-D3DE7A4A6959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECABE4E-259E-414D-8434-D3DE7A4A6959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67630CE5-21D4-439C-93E3-6D661BAA6070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67630CE5-21D4-439C-93E3-6D661BAA6070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67630CE5-21D4-439C-93E3-6D661BAA6070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67630CE5-21D4-439C-93E3-6D661BAA6070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
