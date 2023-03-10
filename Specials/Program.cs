@@ -56,6 +56,11 @@ namespace Specials
             double d2 = double.MaxValue + 1;
             Console.WriteLine("Overflow in Real Types, First Type: " + d);
             Console.WriteLine("Overflow in Real Types, Second Type: " + d2);
+
+            //Underflow in Real Numbers
+            float f1, f2;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine("Underflow in Real Numbers: " + (f1 == f2 + 0.0001f));
         }
     }
 }
