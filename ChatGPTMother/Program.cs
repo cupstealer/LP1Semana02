@@ -23,13 +23,15 @@ namespace ChatGPTMother
                     response = "I'm Mother, nice to meet you! :) ";
                     break;
                 case "How's your day?":
-                    response = "It's been alright, but I feel better now since I have company!";
+                    response = "It's been alright, but I feel better now since I have some company!";
                     break;
                 default:
                     response = "I'm sorry honey, I still haven't learn that.";
                     break;
                 }
                 Console.WriteLine(response);
+
+                Environment.Exit(1);
             }
         }
     }
