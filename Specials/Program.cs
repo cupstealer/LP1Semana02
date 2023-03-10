@@ -24,6 +24,9 @@ namespace Specials
             //Decimal Type
             decimal max6 = decimal.MaxValue;
             decimal min6 = decimal.MinValue;
+            //Long Type
+            long max7 = long.MaxValue;
+            long min7 = long.MinValue;
 
             //Double Infinity
             double x1 = double.PositiveInfinity;
@@ -38,6 +41,7 @@ namespace Specials
             Console.WriteLine($"Range of Float Type is {min5} to {max5}");
             Console.WriteLine($"Range of Decimal Type is {min6} to {max6}");
             Console.WriteLine($"Range of Double Type is {min} to {max}");
+            Console.WriteLine($"Range of Long Type is {min7} to {max7}");
             
             Console.WriteLine();
             Console.WriteLine($"Range of Infinity Double Type is {x1} to {x2}");
